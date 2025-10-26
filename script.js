@@ -28,22 +28,22 @@ const music_list = [
         music : 'Nee-Kavithaigala.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'Wid Cards',
-        music : 'music/fallingdown.mp3'
+        img : 'oorum blood.jpg',
+        name : 'Oorum Blood',
+        artist : 'Sai Abhyankar',
+        music : 'Oorum-Blood-MassTamilan.dev.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
-        music : 'music/Faded.mp3'
+        img : 'khairiyat.jpg',
+        name : 'Khairiyat',
+        artist : 'Arjit Singh',
+        music : 'Khairiyat Chhichhore 320 Kbps.mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
-        artist : 'Clean Bandit',
-        music : 'music/Rather Be.mp3'
+        img : 'jaalakari.jpg',
+        name : 'Jaalakari',
+        artist : 'Sai Abhyankar, Subalahsini',
+        music : 'Jaalakaari_-_SaiAbhyankkar_Sublahshini.mp3'
     }
 ];
 
@@ -171,4 +171,5 @@ function setUpdate(){
         curr_time.textContent = currentMinutes + ":" + currentSeconds;
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
     }
+
 }
